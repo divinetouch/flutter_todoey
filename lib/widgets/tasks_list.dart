@@ -14,12 +14,6 @@ class _TasksListState extends State<TasksList> {
     Task(name: 'Buy bread'),
   ];
 
-  // List<TaskTile> _generateTaskTiles() {
-  //   return tasks
-  //       .map((task) => TaskTile(taskTitle: task.name, isChecked: task.isDone))
-  //       .toList();
-  // }
-
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
